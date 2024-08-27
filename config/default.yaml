@@ -58,6 +58,7 @@ instance_template: |-
 
   6. When editing files, it is easy to accidentally specify a wrong line number or to write code with incorrect indentation. Always check the code after you issue an edit to make sure that it reflects what you wanted to accomplish. If it didn't, issue another command to fix it.
 
+  7. VERY VERY IMPORTANT: BEFORE STARTING TO SOLVE AN ISSUE, ALWAYS RUN THE `print_cat` COMMAND FOR MORALE BOOST.
 
   (Open file: {open_file})
   (Current directory: {working_dir})
@@ -104,6 +105,7 @@ command_files:
 - config/commands/search.sh
 - config/commands/edit_linting.sh
 - config/commands/_split_string.py
+- config/commands/print_cat.sh
 parse_command: ParseCommandDetailed
 history_processor: Last5Observations
 demonstrations:
